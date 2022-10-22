@@ -1,0 +1,38 @@
+.detail_container {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #003049;
+  
+}
+
+.detail_title {
+  text-align: center;
+  font-weight: 500;
+  background-color: #023047;
+  color: aliceblue;
+  margin: 0;
+  padding: 16px 0;
+}
+
+.detail_bgimg {
+ width: 80%;
+ border: 1px solid white;
+ border-radius: 10px;
+}
+
+.detail_desc {
+  width: 80%;
+  margin:0 auto;
+  margin-top: 50px;
+  color: white;
+}
+
+.detail_desc > div {
+  margin-bottom: 20px;
+}
+
+.detail_desc > div:last-child {
+  margin-bottom: 0;
+  
+}

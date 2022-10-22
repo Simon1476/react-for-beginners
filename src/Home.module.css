@@ -1,0 +1,26 @@
+
+
+.home_header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
+  padding: 16px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+}
+
+.home_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.home_movie {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+}
